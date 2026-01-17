@@ -1,4 +1,4 @@
-# 🗄️ Projetos de Banco de Dados: Modelagem & SQL
+# Projetos de Banco de Dados: Modelagem & SQL
 
 > Repositório monorepo contendo dois projetos acadêmicos completos de Banco de Dados. O foco é demonstrar o ciclo de vida do dado: desde a modelagem conceitual (MER) até a extração de inteligência de negócio com queries complexas em SQL.
 
@@ -12,22 +12,22 @@
 
 ---
 
-## 🏙️ Projeto 1: Sistema de Gestão Imobiliária
+## Projeto 1: Sistema de Gestão Imobiliária
 
 Um banco de dados robusto desenhado para gerenciar o ecossistema complexo de uma imobiliária, controlando vendas, aluguéis e a manutenção dos imóveis.
 
-### ✨ Regras de Negócio & Funcionalidades
+### Regras de Negócio & Funcionalidades
 
 O diferencial deste projeto é a implementação de **regras de negócio estritas** via modelagem, como a obrigatoriedade de visitas antes de contratos.
 
 | Módulo | Descrição |
 | :--- | :--- |
-| 🤝 **Negócios** | Fluxo estruturado: `Visita` ➔ `Proposta` ➔ `Contrato` (Venda ou Aluguel). |
-| 📅 **Visitas** | Registro detalhado com feedback do cliente (ex: "Negócio Fechado", "Em dúvida"). |
-| 🛠️ **Manutenção** | Controle de vistorias periódicas e reparos necessários nos imóveis. |
-| 💰 **Financeiro** | Histórico de pagamentos de aluguéis e comissões de corretores. |
+| **Negócios** | Fluxo estruturado: `Visita` ➔ `Proposta` ➔ `Contrato` (Venda ou Aluguel). |
+| **Visitas** | Registro detalhado com feedback do cliente (ex: "Negócio Fechado", "Em dúvida"). |
+| **Manutenção** | Controle de vistorias periódicas e reparos necessários nos imóveis. |
+| **Financeiro** | Histórico de pagamentos de aluguéis e comissões de corretores. |
 
-### 📂 Estrutura dos Arquivos
+### Estrutura dos Arquivos
 
 * `MER.png` / `MR.jpg`: Diagramas Conceitual e Lógico.
 * `DDL_Imobiliaria.sql`: Criação das tabelas e *constraints*.
@@ -39,16 +39,16 @@ O diferencial deste projeto é a implementação de **regras de negócio estrita
 
 ---
 
-## 🚗 Projeto 2: Locadora de Veículos
+## Projeto 2: Locadora de Veículos
 
 Um sistema focado na eficiência operacional, registrando a rotatividade da frota e o comportamento dos clientes.
 
-### ✨ Funcionalidades
+### Funcionalidades
 * **Gestão de Frota:** Controle total dos veículos disponíveis.
 * **Cálculo de Rodagem:** O sistema armazena e calcula a quilometragem percorrida em cada transação.
 * **Histórico:** Rastreabilidade de qual cliente utilizou qual carro e em qual período.
 
-### 📂 Estrutura dos Arquivos
+### Estrutura dos Arquivos
 
 * `01-LocadoraCarro-MER.png` e `MR`: Modelagem visual.
 * `03-LocadoraCarros-DDL.sql`: Script de definição do esquema.
@@ -57,7 +57,7 @@ Um sistema focado na eficiência operacional, registrando a rotatividade da frot
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 <div align="left">
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
